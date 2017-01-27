@@ -1,7 +1,6 @@
 # Edge-Detection---Fuzzy-Logic
 ##Fuzzy Logic Image Processing
 
-###Open Script
 We use Fuzzy Logic Toolbox for processing the image and extracting the edges from the images.
 
 An edge is a boundary between two uniform regions. You can detect an edge by comparing the intensity of neighboring pixels. However, because uniform regions are not crisply defined, small intensity differences between two neighboring pixels do not always represent an edge. Instead, the intensity difference might represent a shading effect.
