@@ -11,7 +11,9 @@ The fuzzy logic approach for image processing allows you to use membership funct
 
 Import the image into MATLAB.
 
-    Irgb = imread('fruits.png');
+```matlab
+Irgb = imread('fruits.png');
+```
 Irgb is a 384 x 512 x 3 uint8 array. The three channels of Irgb (third array dimension) represent the red, green, and blue intensities of the image.
 
 Convert Irgb to grayscale so that you can work with a 2-D array instead of a 3-D array. Use the standard NTSC conversion formula to calculate the effective luminance of each pixel.
