@@ -45,8 +45,8 @@ The fuzzy logic edge-detection algorithm for this example relies on the image gr
     Ix = conv2(I,Gx,'same');
     Iy = conv2(I,Gy,'same');
 
-figure; image(Ix,'CDataMapping','scaled'); colormap('gray'); title('Ix');
-figure; image(Iy,'CDataMapping','scaled'); colormap('gray'); title('Iy');
+    figure; image(Ix,'CDataMapping','scaled'); colormap('gray'); title('Ix');
+    figure; image(Iy,'CDataMapping','scaled'); colormap('gray'); title('Iy');
 
 
 
@@ -129,4 +129,5 @@ You detected the edges in an image using a FIS, comparing the gradient of every 
 
 
 Reference:
+
 [1] https://www.mathworks.com/help/fuzzy/examples/fuzzy-logic-image-processing.html
